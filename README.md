@@ -1,5 +1,8 @@
 # Thistle Press Cache — open source wordpress clear cache
 
+**[Live page](https://arbiterpulley.github.io/open-source-wordpress-clear-cache/)** · **[Download](https://github.com/ArbiterPulley/open-source-wordpress-clear-cache/releases/latest)** · free · MIT · no account
+
+
 ![Requires](https://img.shields.io/badge/requires-WordPress%206.0%2B-informational)
 ![PHP](https://img.shields.io/badge/php-7.4%2B-8892bf)
 ![License](https://img.shields.io/badge/MIT-free-brightgreen)
