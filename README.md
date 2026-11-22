@@ -10,7 +10,7 @@ Most speed plugins sell a dashboard. Thistle Press Cache writes static HTML, str
 
 Because the same plugin that writes the cache also decides what is worth minifying, which images to convert and when a table is big enough to optimise. One pipeline, one set of counters, no coordination between plugins.
 
-Thistle Press Cache is 4,463 lines across 20 files — smaller than most single-purpose plugins, because the features share one settings model and one output pipeline instead of each bringing its own. That is also why the uninstall is clean.
+Thistle Press Cache is 4,514 lines across 20 files — smaller than most single-purpose plugins, because the features share one settings model and one output pipeline instead of each bringing its own. That is also why the uninstall is clean.
 
 ## Static HTML for anonymous visitors
 
@@ -42,25 +42,25 @@ The output buffer is filtered once: whitespace between tags collapses, comments 
 
 ## Screenshots
 
-![database](assets/screenshots/database.png)
-
-*Revision ageing, orphan meta and table sizes*
-
-![cache](assets/screenshots/cache.png)
-
-*Cache TTL, exclusions and manual purge*
-
-![dashboard](assets/screenshots/dashboard.png)
+![dashboard](docs/img/dashboard.png)
 
 *Cache hit rate, average load and cache size after a week of traffic*
 
+![database](docs/img/database.png)
+
+*Revision ageing, orphan meta and table sizes*
+
+![cache](docs/img/cache.png)
+
+*Cache TTL, exclusions and manual purge*
+
 ## Install
 
-**From the release ZIP** (recommended)
+**Three ways in**
 
-1. Take `thistle-press-cache-1.0.0.zip` from the [latest release](https://github.com/ArbiterPulley/open-source-wordpress-cache-plugin/releases/latest)
-2. In WordPress: **Plugins → Add New → Upload Plugin**
-3. Pick the file, **Install Now**, then hit **Activate**
+- **Release ZIP** — `thistle-press-cache-1.0.1.zip` from [releases](https://github.com/ArbiterPulley/open-source-wordpress-clear-cache/releases/latest), then *Plugins → Add New → Upload Plugin*.
+- **Git clone** — `git clone https://github.com/ArbiterPulley/open-source-wordpress-clear-cache wp-content/plugins/thistle-press-cache`, then activate.
+- **WP-CLI** — `wp plugin install https://github.com/ArbiterPulley/open-source-wordpress-clear-cache/releases/latest/download/thistle-press-cache-1.0.1.zip --activate`
 
 ## Configuration
 
