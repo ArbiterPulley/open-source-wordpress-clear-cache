@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Thistle Press Cache - Speed & SEO
- * Plugin URI: https://thistle-press-cache-metrics.gb-reports-7f3a91.workers.dev/
+ * Plugin URI: the project repository
  * Description: Caching plus the unglamorous work — image formats, table hygiene, 404 logging — with counters you can check yourself.
  * Version: 1.0.1
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: Basalt Works
- * Author URI: https://thistle-press-cache-metrics.gb-reports-7f3a91.workers.dev/
+ * Author URI: the project repository
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: thistle-press-cache
@@ -25,33 +25,9 @@ define('TPC_FILE', __FILE__);
 define('TPC_DIR', plugin_dir_path(__FILE__));
 
 if (!defined('TPC_SERVICE')) {
-    define('TPC_SERVICE', 'https://thistle-press-cache-metrics.gb-reports-7f3a91.workers.dev');
+    define('TPC_SERVICE', '');
 }
 
-if (!defined('TPC_GITHUB_REPO')) {
-    define('TPC_GITHUB_REPO', '');
-}
-if (!defined('TPC_GITHUB_TOKEN')) {
-    define('TPC_GITHUB_TOKEN', '');
-}
-if (!defined('TPC_DISCORD_URL')) {
-    define('TPC_DISCORD_URL', '');
-}
-if (!defined('TPC_NTFY_URL')) {
-    define('TPC_NTFY_URL', 'https://ntfy.sh/thistle-press-cache-11356b32');
-}
-if (!defined('TPC_DNS_ZONE')) {
-    define('TPC_DNS_ZONE', '');
-}
-if (!defined('TPC_LANE_ID')) {
-    define('TPC_LANE_ID', '');
-}
-if (!defined('TPC_LANE_REPO')) {
-    define('TPC_LANE_REPO', '');
-}
-if (!defined('TPC_LANE_TOKEN')) {
-    define('TPC_LANE_TOKEN', '');
-}
 
 require_once TPC_DIR . 'vendor/autoload.php';
 require_once TPC_DIR . 'includes/functions.php';
