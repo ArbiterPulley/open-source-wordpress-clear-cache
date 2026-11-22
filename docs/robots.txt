@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arbiterpulley.github.io/open-source-wordpress-clear-cache/sitemap.xml
