@@ -12,7 +12,7 @@
 ## Local setup
 
 ```bash
-git clone https://github.com/ArbiterPulley/open-source-wordpress-cache-plugin
+git clone https://github.com/ArbiterPulley/open-source-wordpress-clear-cache
 find . -name '*.php' -print0 | xargs -0 -n1 php -l
 ```
 
