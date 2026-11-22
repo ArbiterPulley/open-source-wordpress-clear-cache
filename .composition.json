@@ -1,0 +1,40 @@
+{
+  "brand": "Thistle Press Cache",
+  "slug": "thistle-press-cache",
+  "version": "1.0.0",
+  "keyword": "open source wordpress clear cache",
+  "repo": "ArbiterPulley/open-source-wordpress-cache-plugin",
+  "seed": "43df3f20f813",
+  "words": 1067,
+  "blocks": {
+    "title": "1",
+    "badges": "2",
+    "lead": "6",
+    "why": "3",
+    "keyword_frame": "3",
+    "features": "cache:h2/b0,benchmark:h0/b1,db:h2/b0,automation:h1/b2,redirects:h0/b0,diagnostics:h1/b2,optimize:h1/b1",
+    "extras": "2,1",
+    "faq": "9/q0a0,8/q0a0,5/q0a0,13/q0a0,19/q0a0",
+    "perf": "0",
+    "install": "0",
+    "config": "0",
+    "requirements": "1",
+    "uninstall": "0",
+    "closing": "1"
+  },
+  "sections": [
+    "cache",
+    "benchmark",
+    "db",
+    "automation",
+    "redirects",
+    "diagnostics",
+    "optimize"
+  ],
+  "extra_sections": [
+    "Migrating from another cache plugin",
+    "Compatibility"
+  ],
+  "faq_count": 5,
+  "title_style": "Thistle Press Cache \u2014 open source wordpress clear cache"
+}
