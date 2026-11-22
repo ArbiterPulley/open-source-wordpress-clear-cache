@@ -1,0 +1,18 @@
+.thistle-press-cache-breadcrumbs {
+    font-size: .875em;
+    margin: 0 0 1.25em;
+    opacity: .85;
+}
+
+.thistle-press-cache-breadcrumbs a {
+    text-decoration: none;
+}
+
+.thistle-press-cache-breadcrumbs a:hover,
+.thistle-press-cache-breadcrumbs a:focus {
+    text-decoration: underline;
+}
+
+.thistle-press-cache-breadcrumbs span {
+    font-weight: 600;
+}
